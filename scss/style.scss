@@ -1,0 +1,28 @@
+// tools file
+@import "2tools/reset";
+@import "2tools/fonts";
+@import "2tools/variable";
+@import "2tools/global";
+@import "2tools/mixins";
+
+// basic file
+@import "3basic/grid";
+@import "3basic/body_elements";
+@import "3basic/typography";
+@import "3basic/links";
+
+// modules file
+@import "4modules/header";
+@import "4modules/footer";
+
+// pages file
+@import "5pages/home";
+@import "5pages/about";
+@import "5pages/contact";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(95, 95, 95);
+  background-color: yellowgreen;
+}

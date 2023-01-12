@@ -1,0 +1,22 @@
+// @import "fontawesome5.15.4_scss/fontawesome.scss";
+// @import "fontawesome5.15.4_scss/brands.scss";
+// @import "fontawesome5.15.4_scss/solid.scss";
+// @import "fontawesome5.15.4_scss/regular.scss";
+
+@import "fontawesome-free-6.2.1_scss/fontawesome.scss";
+@import "fontawesome-free-6.2.1_scss/brands.scss";
+@import "fontawesome-free-6.2.1_scss/solid.scss";
+@import "fontawesome-free-6.2.1_scss/regular.scss";
+
+@font-face {
+  font-family: "open_sansbold", "open_sanslight", "open_sansregular";
+  font-size: 25px;
+  src: url("../../fonts/opensans-bold-webfont.woff2") format("woff2"),
+    url("../../fonts/opensans-bold-webfont.woff") format("woff"),
+    url("../../fonts/opensans-light-webfont.woff2") format("woff2"),
+    url("../../fonts/opensans-light-webfont.woff") format("woff"),
+    url("../../fonts/opensans-regular-webfont.woff2") format("woff2"),
+    url("../../fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
